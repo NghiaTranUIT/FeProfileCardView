@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAD6EFFF1ADD5020008AFA42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD6EFFE1ADD5020008AFA42 /* main.m */; };
+		BAD6F0021ADD5020008AFA42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD6F0011ADD5020008AFA42 /* AppDelegate.m */; };
+		BAD6F0051ADD5020008AFA42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD6F0041ADD5020008AFA42 /* ViewController.m */; };
+		BAD6F0081ADD5020008AFA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD6F0061ADD5020008AFA42 /* Main.storyboard */; };
+		BAD6F00A1ADD5020008AFA42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD6F0091ADD5020008AFA42 /* Images.xcassets */; };
+		BAD6F00D1ADD5020008AFA42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD6F00B1ADD5020008AFA42 /* LaunchScreen.xib */; };
+		BAD6F0191ADD5020008AFA42 /* FeProfileCardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD6F0181ADD5020008AFA42 /* FeProfileCardViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAD6F0131ADD5020008AFA42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAD6EFF11ADD5020008AFA42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD6EFF81ADD5020008AFA42;
+			remoteInfo = FeProfileCardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAD6EFF91ADD5020008AFA42 /* FeProfileCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeProfileCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD6EFFD1ADD5020008AFA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD6EFFE1ADD5020008AFA42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAD6F0001ADD5020008AFA42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAD6F0011ADD5020008AFA42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAD6F0031ADD5020008AFA42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAD6F0041ADD5020008AFA42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAD6F0071ADD5020008AFA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAD6F0091ADD5020008AFA42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BAD6F00C1ADD5020008AFA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BAD6F0121ADD5020008AFA42 /* FeProfileCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeProfileCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD6F0171ADD5020008AFA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD6F0181ADD5020008AFA42 /* FeProfileCardViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeProfileCardViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD6EFF61ADD5020008AFA42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD6F00F1ADD5020008AFA42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAD6EFF01ADD5020008AFA42 = {
+			isa = PBXGroup;
+			children = (
+				BAD6EFFB1ADD5020008AFA42 /* FeProfileCardView */,
+				BAD6F0151ADD5020008AFA42 /* FeProfileCardViewTests */,
+				BAD6EFFA1ADD5020008AFA42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD6EFFA1ADD5020008AFA42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD6EFF91ADD5020008AFA42 /* FeProfileCardView.app */,
+				BAD6F0121ADD5020008AFA42 /* FeProfileCardViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD6EFFB1ADD5020008AFA42 /* FeProfileCardView */ = {
+			isa = PBXGroup;
+			children = (
+				BAD6F0001ADD5020008AFA42 /* AppDelegate.h */,
+				BAD6F0011ADD5020008AFA42 /* AppDelegate.m */,
+				BAD6F0031ADD5020008AFA42 /* ViewController.h */,
+				BAD6F0041ADD5020008AFA42 /* ViewController.m */,
+				BAD6F0061ADD5020008AFA42 /* Main.storyboard */,
+				BAD6F0091ADD5020008AFA42 /* Images.xcassets */,
+				BAD6F00B1ADD5020008AFA42 /* LaunchScreen.xib */,
+				BAD6EFFC1ADD5020008AFA42 /* Supporting Files */,
+			);
+			path = FeProfileCardView;
+			sourceTree = "<group>";
+		};
+		BAD6EFFC1ADD5020008AFA42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD6EFFD1ADD5020008AFA42 /* Info.plist */,
+				BAD6EFFE1ADD5020008AFA42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAD6F0151ADD5020008AFA42 /* FeProfileCardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAD6F0181ADD5020008AFA42 /* FeProfileCardViewTests.m */,
+				BAD6F0161ADD5020008AFA42 /* Supporting Files */,
+			);
+			path = FeProfileCardViewTests;
+			sourceTree = "<group>";
+		};
+		BAD6F0161ADD5020008AFA42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD6F0171ADD5020008AFA42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAD6EFF81ADD5020008AFA42 /* FeProfileCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD6F01C1ADD5020008AFA42 /* Build configuration list for PBXNativeTarget "FeProfileCardView" */;
+			buildPhases = (
+				BAD6EFF51ADD5020008AFA42 /* Sources */,
+				BAD6EFF61ADD5020008AFA42 /* Frameworks */,
+				BAD6EFF71ADD5020008AFA42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeProfileCardView;
+			productName = FeProfileCardView;
+			productReference = BAD6EFF91ADD5020008AFA42 /* FeProfileCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAD6F0111ADD5020008AFA42 /* FeProfileCardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD6F01F1ADD5020008AFA42 /* Build configuration list for PBXNativeTarget "FeProfileCardViewTests" */;
+			buildPhases = (
+				BAD6F00E1ADD5020008AFA42 /* Sources */,
+				BAD6F00F1ADD5020008AFA42 /* Frameworks */,
+				BAD6F0101ADD5020008AFA42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD6F0141ADD5020008AFA42 /* PBXTargetDependency */,
+			);
+			name = FeProfileCardViewTests;
+			productName = FeProfileCardViewTests;
+			productReference = BAD6F0121ADD5020008AFA42 /* FeProfileCardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAD6EFF11ADD5020008AFA42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Fe;
+				TargetAttributes = {
+					BAD6EFF81ADD5020008AFA42 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BAD6F0111ADD5020008AFA42 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BAD6EFF81ADD5020008AFA42;
+					};
+				};
+			};
+			buildConfigurationList = BAD6EFF41ADD5020008AFA42 /* Build configuration list for PBXProject "FeProfileCardView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAD6EFF01ADD5020008AFA42;
+			productRefGroup = BAD6EFFA1ADD5020008AFA42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAD6EFF81ADD5020008AFA42 /* FeProfileCardView */,
+				BAD6F0111ADD5020008AFA42 /* FeProfileCardViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAD6EFF71ADD5020008AFA42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD6F0081ADD5020008AFA42 /* Main.storyboard in Resources */,
+				BAD6F00D1ADD5020008AFA42 /* LaunchScreen.xib in Resources */,
+				BAD6F00A1ADD5020008AFA42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD6F0101ADD5020008AFA42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAD6EFF51ADD5020008AFA42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD6F0051ADD5020008AFA42 /* ViewController.m in Sources */,
+				BAD6F0021ADD5020008AFA42 /* AppDelegate.m in Sources */,
+				BAD6EFFF1ADD5020008AFA42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD6F00E1ADD5020008AFA42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD6F0191ADD5020008AFA42 /* FeProfileCardViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAD6F0141ADD5020008AFA42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAD6EFF81ADD5020008AFA42 /* FeProfileCardView */;
+			targetProxy = BAD6F0131ADD5020008AFA42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAD6F0061ADD5020008AFA42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD6F0071ADD5020008AFA42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAD6F00B1ADD5020008AFA42 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD6F00C1ADD5020008AFA42 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAD6F01A1ADD5020008AFA42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAD6F01B1ADD5020008AFA42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAD6F01D1ADD5020008AFA42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeProfileCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAD6F01E1ADD5020008AFA42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeProfileCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAD6F0201ADD5020008AFA42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeProfileCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeProfileCardView.app/FeProfileCardView";
+			};
+			name = Debug;
+		};
+		BAD6F0211ADD5020008AFA42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeProfileCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeProfileCardView.app/FeProfileCardView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAD6EFF41ADD5020008AFA42 /* Build configuration list for PBXProject "FeProfileCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD6F01A1ADD5020008AFA42 /* Debug */,
+				BAD6F01B1ADD5020008AFA42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD6F01C1ADD5020008AFA42 /* Build configuration list for PBXNativeTarget "FeProfileCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD6F01D1ADD5020008AFA42 /* Debug */,
+				BAD6F01E1ADD5020008AFA42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAD6F01F1ADD5020008AFA42 /* Build configuration list for PBXNativeTarget "FeProfileCardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD6F0201ADD5020008AFA42 /* Debug */,
+				BAD6F0211ADD5020008AFA42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAD6EFF11ADD5020008AFA42 /* Project object */;
+}
